@@ -1,1 +1,58 @@
+# Build folders
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio cache/options directory
 .vs/
+
+# Rider / JetBrains
+.idea/
+*.sln.iml
+
+# Logs
+*.log
+
+# Auto-generated files
+GeneratedFiles/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.sln.docstates
+
+# Test results
+TestResult*/
+[Bb]uild[Ll]og.*
+*.coverage
+*.coveragexml
+*.testresult.xml
+
+# NuGet
+*.nupkg
+*.snupkg
+*.nuspec
+packages/
+# except build/, which is used by some projects
+!**/packages/build/
+*.nuget.props
+*.nuget.targets
+
+# Tooling
+/.vs/
+/.vscode/
+
+# Others
+*.dbmdl
+*.jfm
+*.pdb
+
+# Publish output
+publish/
