@@ -19,4 +19,5 @@ do
     var winOrLost = startGame.DiceRoll();
     if (winOrLost) break;
 } while (count < 3);
-Console.WriteLine("You Lost!");
+if (count == 3)
+    Console.WriteLine("You Lost!");
